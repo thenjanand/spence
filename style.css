@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  line-height: 1.4;
+}
+/* Header */
+header {
+  height: 50px;
+  width: 100%;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  width: 120px;
+  margin: 5px 25px;
+}
+.need_help {
+  float: left;
+  margin: 15px 15px;
+}
+.need_help a {
+  text-decoration: none;
+  color: black;
+}
+.body-container {
+  background-image: url(/images/hotelimage.jpg);
+  min-height: 100vh;
+  max-width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  display: flex;
+}
+.person {
+  display: flex;
+  gap: 10px;
+  background-color: white;
+}
+/* 2nd section */
+main {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.img-container {
+  margin: 10px 0px;
+  display: flex;
+  gap: 10px;
+  /* align-items: center; */
+}
+.right-container {
+  width: 50%;
+  height: 400px;
+  border-radius: 10px;
+  /* gap: 10px; */
+}
+.left-container {
+  display: flex;
+  border-radius: 10px;
+  width: 50%;
+  height: 400px;
+  gap: 10px;
+}
+.top-container,
+.down-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 10px;
+}
+.top1,
+.top2,
+.down1,
+.down2 {
+  flex: 1;
+  object-fit: cover;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+/*Section - Name  */
+.name_container {
+  display: flex;
+  justify-content: space-between;
+}
+.ref {
+  display: flex;
+  align-items: center;
+}
+.ref a {
+  margin-left: 25px;
+}
+.name h3 a {
+  text-decoration: none;
+  color: black;
+}
+.name {
+  padding: 10px 0px;
+}
+.name h5 {
+  padding: 10px 0px;
+}
+.name ul {
+  padding: 10px 0px;
+  display: flex;
+  gap: 10px;
+  list-style: inside;
+}
+.hotel-info {
+  margin-bottom: 40px;
+}
+
+/* Section -Rule */
+.rule {
+  border-top: 1px solid #333;
+  padding-top: 40px;
+  height: 400px;
+}
+
+.rule ul {
+  padding-top: 10px;
+  padding-left: 20px;
+  list-style: inside;
+}
+/* Footer */
+footer {
+  background-color: black;
+  color: whitesmoke;
+  margin: 0px auto;
+  text-align: center;
+}
